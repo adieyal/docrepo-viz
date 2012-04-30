@@ -20,12 +20,13 @@ Please produce a tree map as shown below but using the d3 visualisation library.
 
 This example code is available for re-use: http://mbostock.github.com/d3/ex/treemap.html
 
-The code should take a context hash as a parameter e.g.
+The code should take a context hash as a parameter e.g.::
 
-TreemapViz = function(ctx) {
-}
+    TreemapViz = function(ctx) {
+    }
 
 where ctx should contain at least the following::
+
     ctx = {
         width: 600, // width in pixels
         height: 300, // height in pixels
